@@ -13,4 +13,5 @@ jobs:
     - name: Run a multi-line script
       run: |
         docker --version
+        docker-compose --version
         echo test, and deploy your project.
