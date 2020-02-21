@@ -12,5 +12,5 @@ jobs:
       run: echo Hello, world!
     - name: Run a multi-line script
       run: |
-        hello | echo,
+        "hello" | echo
         echo test, and deploy your project.
